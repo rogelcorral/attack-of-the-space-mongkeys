@@ -54,7 +54,7 @@ spacePlane = sprites.create(img`
 spacePlane.setFlag(SpriteFlag.StayInScreen, true)
 info.setLife(3)
 controller.moveSprite(spacePlane, 200, 200)
-game.onUpdateInterval(500, function () {
+game.onUpdateInterval(1000, function () {
     mongkey = sprites.create(img`
 . . . . f f f f f . . . . . . . 
 . . . f e e e e e f . . . . . . 
